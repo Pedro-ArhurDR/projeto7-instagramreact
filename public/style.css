@@ -1,0 +1,382 @@
+body {
+    font-family: "Segoe UI";
+    background-color: #fafafa;
+    width: 100%;
+  }
+  .barranav {
+    display: none;
+  }
+  
+  .borda {
+    width: 1px;
+    height: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px #dbdbdb solid;
+  }
+  .instagram {
+    width: 103px;
+    height: 29px;
+  }
+  .iconestopo {
+    display: flex;
+  }
+  .iconestopo ion-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  .iconesC {
+    margin: auto 0;
+    width: 215px;
+    height: 28px;
+    color: #979797;
+    background-color: #fafafa;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px #dbdbdb solid;
+  }
+  .iconesL {
+    display: flex;
+    margin: auto 0;
+  }
+  .iconesR {
+    margin: auto 0;
+  }
+  .conteudoP {
+    margin-top: 50px;
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    margin-bottom: 3px;
+    margin-top: px;
+  }
+  .box {
+    background-color: #ffffff;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box6 {
+    margin-right: -40px;
+    position: relative;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .seta {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.678);
+    padding: 0px;
+  }
+  .seta ion-icon {
+    color: #ffffff;
+    position: absolute;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.678);
+    width: 26px;
+    height: 26px;
+    border-radius: 13px;
+    padding: 0px;
+    top: 35%;
+    left: 10%;
+    z-index: 15;
+  }
+  .stories {
+    border-radius: 3px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 24px;
+    border: 1px #dbdbdb solid;
+    overflow: hidden;
+  
+    width: 614px;
+    height: 118px;
+    font-size: 12px;
+  }
+  .stories_background {
+    margin-top: 15px;
+    width: 66px;
+    height: 66px;
+    position: relative;
+  }
+  .stories > div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+  }
+  .stories_foto {
+    align-items: center;
+    position: absolute;
+    height: 56px;
+    width: 56px;
+    z-index: 10;
+  }
+  .instagram2 {
+    display: none;
+    width: 103px;
+    height: 29px;
+  }
+  
+  .topo {
+    position: fixed;
+    display: flex;
+    height: 54px;
+    width: 100%;
+    background-color: #ffffff;
+    justify-items: center;
+    z-index: 30;
+    border-bottom: 1px #dbdbdb solid;
+  }
+  .iconestopo {
+    margin: 0 auto;
+    display: flex;
+    width: 942px;
+    justify-content: space-between;
+  }
+  
+  .feed {
+    border-radius: 3px;
+    width: 612px;
+    background-color: #ffffff;
+    border: 1px #dbdbdb solid;
+    margin-bottom: 60px;
+  }
+  .perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 612px;
+    height: 55px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .perfil div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .perfil ion-icon {
+    margin-left: -30px;
+  }
+  
+  h2 {
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  .perfil img {
+    border-radius: 28px;
+    width: 27px;
+    height: 27px;
+  }
+  .fotosfeed {
+    width: 612px;
+    height: 612px;
+  }
+  .likes ion-icon {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    width: 22px;
+    height: 22px;
+    margin-left: 12px;
+  }
+  .curtidas {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    margin-bottom: 7px;
+  }
+  .curtidas img {
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin-right: 6px;
+  }
+  .curtidas strong {
+    font-weight: 700;
+  }
+  .iconesC img {
+    width: 215px;
+    height: 28px;
+  }
+  
+  .conteudoS {
+    margin-top: 110px;
+    display: flex;
+  }
+  .sidebar {
+    width: 300px;
+    height: 54px;
+  }
+  .separador {
+    width: 28px;
+    height: 85px;
+  }
+  .sugestao1 {
+    display: flex;
+    align-items: center;
+  }
+  strong {
+    font-weight: 700;
+  }
+  .cinza {
+    color: gray;
+  }
+  h5 {
+    color: rgb(100, 100, 100);
+  }
+  h4 {
+    color: #262626;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  h6 {
+    color: #139ef2;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .sugestao1 img {
+    border-radius: 28px;
+    width: 56px;
+    height: 56px;
+  }
+  .perfilsugest {
+    width: 182px;
+    height: 32px;
+    margin-left: 13px;
+  }
+  .topofy {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 12px;
+    margin-top: 18px;
+  }
+  
+  .foryou {
+    width: 300px;
+  }
+  
+  .perfilfy {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .perfilfy div {
+    display: flex;
+  }
+  .textosfy {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .termos1 {
+    color: #c7c7c7;
+    font-size: 11px;
+    margin: 20px 0;
+  }
+  
+  @media (max-width: 935px) {
+    body {
+      justify-content: center;
+    }
+    .conteudoS {
+      display: none;
+    }
+    .iconesR {
+      margin-right: 15px;
+    }
+  }
+  
+  @media (max-width: 614px) {
+    body {
+    }
+  
+    .iconesR {
+      margin-right: 15px;
+    }
+    .barranav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #ffff;
+      height: 54px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      align-items: center;
+      border-top: 1px solid #dbdbdb;
+    }
+    .barranav ion-icon {
+      width: 22px;
+      height: 22px;
+    }
+    .instagram {
+      display: none;
+    }
+    .borda {
+      display: none;
+    }
+    .compass {
+      display: none;
+    }
+    .heart {
+      display: none;
+    }
+    .person {
+      display: none;
+    }
+    .stories {
+      background-color: #fafafa;
+      margin: 0;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+    .stories div {
+      background-color: #fafafa;
+    }
+    .iconestopo {
+      justify-content: space-between;
+    }
+    .iconesL ion-icon {
+      width: 25px;
+      height: 25px;
+    }
+    .fotosfeed {
+      width: 100%;
+    }
+    .feed {
+      width: 100%;
+    }
+    .seta {
+      display: none;
+    }
+    .instagram2 {
+      display: inherit;
+    }
+    .barraP {
+      display: none;
+    }
+    .iconesC {
+      background-color: #ffff;
+      border: 0;
+    }
+    .iconesC img {
+      width: 103px;
+      height: 28px;
+    }
+  }
+  
