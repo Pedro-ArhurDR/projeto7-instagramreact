@@ -1,38 +1,5 @@
 import Stories from "./Stories"
-
-function PostFeed(props){
-  return(
-    <div class="feed">
-          <div class="perfil">
-            <div>
-              <img class="fotosfeed" src={props.src} />
-              <h2>{props.h2}</h2>
-            </div>
-            <div>
-              <ion-icon name={props.ion}></ion-icon>
-            </div>
-          </div>
-          <div class="foto">
-            <img class="fotosfeed" src={props.src2} />
-          </div>
-          <div class="feedback">
-            <div class="likes">
-              <ion-icon name={props.ion2}></ion-icon>
-              <ion-icon name={props.ion3}></ion-icon>
-              <ion-icon name={props.ion4}></ion-icon>
-            </div>
-            <div class="curtidas">
-              <img class="fotosfeed" src={props.src3} />
-              <p>
-                Curtido por <strong>{props.text}</strong> e
-                <strong>outras 101.523 pessoas</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-
-  )
-}
+import PostFeed from "./PostFeed"
 
 const feed = [
   {
@@ -57,10 +24,13 @@ const feed = [
         src3:"imagens/sugest4.png",
         text:"adorable_animals",
   }
-
 ]
 
- export default function ConteudoP(){
+
+
+
+
+ function ConteudoP(){
     return(
         <div class="conteudoP">
         <Stories/>
@@ -69,8 +39,14 @@ const feed = [
         h2={feed.h2}
         src2={feed.src2}
         src3={feed.src3}
-        text={feed.text}/>
+        text={feed.text}
+        ion={feed.ion}
+        ion2={feed.ion2}
+        ion3={feed.ion3}
+        ion4={feed.ion4}/>
                  )} 
       </div>
     )
 }
+
+export default ConteudoP

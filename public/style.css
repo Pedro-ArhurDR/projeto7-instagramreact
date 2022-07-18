@@ -6,7 +6,9 @@ body {
   .barranav {
     display: none;
   }
-  
+  ion-icon:hover{
+    background-color:red
+  }
   .borda {
     width: 1px;
     height: 22px;
